@@ -1,0 +1,73 @@
+.IcerikOlusturmaForm textarea{
+	width: 850px;
+}
+
+.IcerikOlusturmaForm textarea[name=aciklama_yazisi]{
+	height: 150px;
+}
+
+.IcerikOlusturmaForm textarea[name=icerik_yazisi]{
+	height: 400px;
+}
+
+.IcerikOlusturmaForm input[name=icerik_baslik]{
+	width: 500px;
+}
+
+
+.yonetim-paneli-geri-git a{
+	color:red;
+	font-size:18px;
+	text-decoration:none;
+	margin-top:10px;
+}
+
+.yonetim-paneli-geri-git a:hover{
+	text-decoration:underline;
+}
+
+.yonetim-paneli-islemler-listesi li{
+	padding:5px;
+	background-color:#59dfe0;
+	color:white;
+	margin:5px;
+	border-radius:3px;
+	max-width:300px;
+}
+
+.yonetim-paneli-islemler-listesi li a{
+	color:white;
+	text-decoration:none;
+}
+
+.yonetim-paneli-islemler-listesi li:hover{
+	background-color:#e05968;
+}
+
+/* */
+.yp-kategori-duzenle ul li{
+	list-style-image:url("../img/liste-simge.png");
+	margin-left:20px;
+}
+
+h1{
+	font-size:25px;
+	color:#ce1c4a;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.silinen-yorum-geri-getir-link{
+	color:#c83c3c;
+	font-weight:bold;
+	display:inline;
+}
+
+.silinen-yorum-geri-getir-link:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.silik-yorum{
+	background-color:transparent;
+}

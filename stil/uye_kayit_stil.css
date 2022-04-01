@@ -1,0 +1,61 @@
+body{
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	background-image:url("../img/fon.png");
+	background-repeat:repeat;
+}
+
+.uyelik{
+	width:400px;
+	height:300px;
+	background-color:rgba(255,255,255, .2);
+	margin:0 auto;
+	margin-top:100px;
+	padding:50px;
+}
+
+.uyelik h4{
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.uyelik input{
+	display:block;
+	margin-top:10px;
+}
+
+.uyelik input[type="text"], input[type="password"]{
+	padding:10px;
+	padding-left:0px;
+	background:none;
+	border:none;
+	outline:none;
+	border-bottom:2px solid #f94880;
+	color:gray;
+	font-weight:bold;
+}
+
+.uyelik input[type="checkbox"]{
+	display:inline;
+}
+
+.uyelik a{
+	color:#f94880;
+	text-decoration:none;
+}
+
+.uyelik input[type="submit"]{
+	border:none;
+	outline:none;
+	background-color:#f94880;
+	color:white;
+	font-weight:bold;
+	padding:5px;
+	border-radius:3px;
+}
+
+.uyelik input[type="submit"]:hover{
+	background-color:white;
+	color:#f94880;
+}

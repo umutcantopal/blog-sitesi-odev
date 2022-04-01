@@ -1,0 +1,97 @@
+.makale .makale-baslik{
+	font-size:40px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.makale .makale-yazar{
+	color:orange;
+}
+
+.makale .makale-tarih{
+	color:green;
+}
+
+.makale .yazar-ve-tarih-bilgisi{
+	font-size:12px;
+}
+
+.makale .tanitim-yazisi{
+	font-style:italic;
+}
+
+.makale *{
+	margin-bottom:10px;
+}
+
+/*Yorumlar Alanı*/
+
+.yorumlar{
+	background-color:#444444;
+	width:740px;
+	border-radius:3px;
+	padding:5px;
+}
+
+.yorumlar .yorumlar-ust-baslik{
+	color:white;
+	font-weight:bold;
+	font-size:35px;
+}
+
+.yorumlar .kullanici-yorumu{
+	width:700px;
+	background-color:white;
+	border-radius:3px;
+	padding:10px;
+}
+
+.yorumlar .kullanici-yorumu .kullanici-yorumu-ust img{
+	float: left;
+	margin-right:10px;
+}
+
+.yorumlar .kullanici-yorumu .kullanici-yorumu-ust{
+	
+}
+
+.yorumTextare{
+	resize: none;
+	width:100%;
+	min-height:100px;
+	border:none;
+	border-radius:3px;
+	padding:3px;
+}
+
+.yorumGonderButonu{
+	border:none;
+	outline:none;
+	padding:5px;
+	border-radius:3px;
+	color:white;
+	background-color:#00ac15;
+	font-weight:bold;
+}
+
+.yorumGonderButonu:hover{
+	background-color:#059116;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
